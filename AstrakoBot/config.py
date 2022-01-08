@@ -14,28 +14,28 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 123456789  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "awoo"
-    SUPPORT_CHAT = "awoo"  # Your own group for support, do not add the @
+    API_ID = 9907811  # integer value, dont use ""
+    API_HASH = "b5adb7f7d4a096750edec1bc6daacd56"
+    TOKEN = "5093180585:AAF1TxwOSRkf65AUEbuH-pfOyZ3yMxev2Fs"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 5010513283  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "realzed"
+    SUPPORT_CHAT = "kindevils"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1234567890123
+        -625123576
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1234567890123
+        -625123576
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     ALLOW_CHATS = True
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://zmemstgo:I0_ChVXz7LLSfoTmsiho5CHm9xsroyxt@kashin.db.elephantsql.com/zmemstgo"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "yYgNEev~Q5n65iAnE8cS0tR9KAzLtxVkn_JfBof_Gu2oYVuTOBsR4NbvW90XMVEc"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
     WEATHER_API = ""  # go to openweathermap.org/api to get key
 
