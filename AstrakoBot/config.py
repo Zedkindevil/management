@@ -29,7 +29,8 @@ class Config(object):
     ALLOW_CHATS = True
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://zmemstgo:I0_ChVXz7LLSfoTmsiho5CHm9xsroyxt@kashin.db.elephantsql.com/zmemstgo"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgresql://postgres:t6vTeryoGYcH1PGuhWmG@containers-us-west-11.railway.app:7638/railway" 
+    DB_NAME = "railway"# needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
